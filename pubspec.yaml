@@ -1,0 +1,143 @@
+name: speak_slowly
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.7
+  image: ^4.0.17
+  intl: ^0.18.1
+  percent_indicator: ^4.2.3
+  flutter_sound: ^9.2.13
+  permission_handler: ^11.0.0
+  just_audio: ^0.9.34
+  fl_chart: ^0.63.0
+  bubble: ^1.2.1
+  url_launcher: ^6.1.12
+  archive: ^3.3.7
+  firebase_storage: ^11.2.6
+  audio_session: ^0.1.16
+  fluttertoast: ^8.2.2
+  firebase_database: ^10.2.5
+  device_info_plus: ^9.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    # Home page titles
+    - assets/image/title_svg/Speak-title.svg
+    - assets/image/title_svg/Speak-subtitle.svg
+    # Logo
+    - assets/image/主角/阿松普通.png
+    - assets/image/主角/阿松舉手.png
+    # Word cards
+    - assets/image/card/大哭.png
+    - assets/image/card/打鼓.png
+    - assets/image/card/積木.png
+    - assets/image/card/踏步.png
+    - assets/image/card/吉他.png
+    - assets/image/card/哈囉.png
+    - assets/image/card/內褲.png
+    - assets/image/card/骨頭.png
+    - assets/image/card/頭髮.png
+    - assets/image/card/枇杷.png
+    - assets/image/card/旗子.png
+    - assets/image/card/欺負.png
+    - assets/image/card/擦藥.png
+    - assets/image/card/草莓.png
+    - assets/image/card/走路.png
+    - assets/image/card/山上.png
+    - assets/image/card/綿羊.png
+    - assets/image/card/聲音.png
+    - assets/image/card/星星.png
+    - assets/image/card/日曆.png
+    - assets/image/card/蜘蛛.png
+    - assets/image/card/住宿.png
+    - assets/image/card/洗手.png
+    - assets/image/card/抽屜.png
+    - assets/image/card/下車.png
+    - assets/image/card/梳子.png
+    - assets/image/card/吐司.png
+    # Loading animation
+    - assets/image/loading.gif
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Noto_Sans_TC
+      fonts:
+        - asset: assets/fonts/NotoSansTC-Thin.otf
+          weight: 100
+        - asset: assets/fonts/NotoSansTC-Light.otf
+          weight: 300
+        - asset: assets/fonts/NotoSansTC-Regular.otf
+          weight: 400
+        - asset: assets/fonts/NotoSansTC-Medium.otf
+          weight: 500
+        - asset: assets/fonts/NotoSansTC-Bold.otf
+          weight: 700
+        - asset: assets/fonts/NotoSansTC-Black.otf
+          weight: 900
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
