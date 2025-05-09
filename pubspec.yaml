@@ -90,14 +90,14 @@ flutter:
     - assets/image/card/積木.png
     - assets/image/card/踏步.png
     - assets/image/card/吉他.png
-    - assets/image/card/哈囉.png
+    - assets/image/card/哈囉.PNG
     - assets/image/card/內褲.png
     - assets/image/card/骨頭.png
-    - assets/image/card/頭髮.png
+    - assets/image/card/頭髮.PNG
     - assets/image/card/枇杷.png
     - assets/image/card/旗子.png
     - assets/image/card/欺負.png
-    - assets/image/card/擦藥.png
+    - assets/image/card/擦藥.PNG
     - assets/image/card/草莓.png
     - assets/image/card/走路.png
     - assets/image/card/山上.png
@@ -107,11 +107,11 @@ flutter:
     - assets/image/card/日曆.png
     - assets/image/card/蜘蛛.png
     - assets/image/card/住宿.png
-    - assets/image/card/洗手.png
-    - assets/image/card/抽屜.png
-    - assets/image/card/下車.png
-    - assets/image/card/梳子.png
-    - assets/image/card/吐司.png
+    - assets/image/card/洗手.PNG
+    - assets/image/card/抽屜.PNG
+    - assets/image/card/下車.PNG
+    - assets/image/card/梳子.PNG
+    - assets/image/card/吐司.PNG
     # Loading animation
     - assets/image/loading.gif
 
