@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -114,7 +112,7 @@ class _TreatmentMapPageState extends State<TreatmentMapPage> {
                                           ),
                                         ],
                                       ),
-                                      textScaleFactor: 1,
+                                      textScaler: TextScaler.linear(1),
                                     ),
                                   ),
                                 ),
@@ -168,7 +166,7 @@ class _TreatmentMapPageState extends State<TreatmentMapPage> {
                                                   fontWeight: FontWeight.w500,
                                                 ),
                                               ),
-                                              textScaleFactor: 1,
+                                              textScaler: TextScaler.linear(1),
                                             ),
                                             const SizedBox(
                                               height: 12,
@@ -208,7 +206,8 @@ class _TreatmentMapPageState extends State<TreatmentMapPage> {
                                                     height: 1,
                                                   ),
                                                 ),
-                                                textScaleFactor: 1,
+                                                textScaler:
+                                                    TextScaler.linear(1),
                                               ),
                                             ),
                                           ],
@@ -254,7 +253,7 @@ class _TreatmentMapPageState extends State<TreatmentMapPage> {
                                                   fontWeight: FontWeight.w500,
                                                 ),
                                               ),
-                                              textScaleFactor: 1,
+                                              textScaler: TextScaler.linear(1),
                                             ),
                                             const SizedBox(
                                               height: 12,
@@ -268,7 +267,7 @@ class _TreatmentMapPageState extends State<TreatmentMapPage> {
                                                   fontWeight: FontWeight.w500,
                                                 ),
                                               ),
-                                              textScaleFactor: 1,
+                                              textScaler: TextScaler.linear(1),
                                             ),
                                             const SizedBox(
                                               height: 12,
@@ -308,7 +307,8 @@ class _TreatmentMapPageState extends State<TreatmentMapPage> {
                                                     height: 1,
                                                   ),
                                                 ),
-                                                textScaleFactor: 1,
+                                                textScaler:
+                                                    TextScaler.linear(1),
                                               ),
                                             ),
                                           ],

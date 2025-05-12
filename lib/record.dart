@@ -16,7 +16,6 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:audio_session/audio_session.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 
 import 'text_constants.dart';
@@ -390,7 +389,7 @@ class _RecordPageState extends State<RecordPage> {
                                         ),
                                       ),
                                       textAlign: TextAlign.center,
-                                      textScaleFactor: 1,
+                                      textScaler: TextScaler.linear(1),
                                     ),
                                     ValueListenableBuilder<int>(
                                       valueListenable: answeredCountNotifier,

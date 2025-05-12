@@ -148,7 +148,7 @@ class _BasicInfoPageState extends State<BasicInfoPage> {
                                     ],
                                   ),
                                   textAlign: TextAlign.justify,
-                                  textScaleFactor: 1,
+                                  textScaler: TextScaler.linear(1),
                                 ),
                               ],
                             ),
@@ -230,7 +230,7 @@ class _BasicInfoPageState extends State<BasicInfoPage> {
                                   ),
                                 ),
                                 textAlign: TextAlign.center,
-                                textScaleFactor: 1,
+                                textScaler: TextScaler.linear(1),
                               ),
                               ValueListenableBuilder<int>(
                                 valueListenable: answeredCountNotifier,
@@ -286,7 +286,7 @@ class _BasicInfoPageState extends State<BasicInfoPage> {
                             fontWeight: FontWeight.w400,
                           ),
                         ),
-                        textScaleFactor: 1,
+                        textScaler: const TextScaler.linear(1),
                       ),
                       subtitle: Wrap(
                         spacing: 12.0,
@@ -590,7 +590,7 @@ class _BasicInfoPageState extends State<BasicInfoPage> {
                               return ChoiceChip(
                                 label: Text.rich(
                                   TextSpan(text: option),
-                                  textScaleFactor: 1,
+                                  textScaler: const TextScaler.linear(1),
                                 ),
                                 labelStyle: TextStyle(
                                   color: question.selectedOptions

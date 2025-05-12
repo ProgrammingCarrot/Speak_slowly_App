@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/services.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -221,7 +219,9 @@ class _ResultPageState extends State<ResultPage> {
                                                     ),
                                                   ],
                                                 ),
-                                                textScaleFactor: 1,
+                                                textScaler:
+                                                    const TextScaler.linear(
+                                                        0.8),
                                               )
                                             : Text.rich(
                                                 TextSpan(
@@ -276,7 +276,9 @@ class _ResultPageState extends State<ResultPage> {
                                                     ),
                                                   ],
                                                 ),
-                                                textScaleFactor: 1,
+                                                textScaler:
+                                                    const TextScaler.linear(
+                                                        0.8),
                                               ),
                                       ],
                                     ),
@@ -382,7 +384,7 @@ class _ResultPageState extends State<ResultPage> {
                                             fontSize: 14,
                                             fontWeight: FontWeight.w500),
                                       ),
-                                      textScaleFactor: 1,
+                                      textScaler: const TextScaler.linear(0.8),
                                     ),
                                   ),
                                 ),
@@ -449,7 +451,7 @@ class _ResultPageState extends State<ResultPage> {
                                   height: 1.2,
                                 ),
                               ),
-                              textScaleFactor: 1,
+                              textScaler: TextScaler.linear(0.8),
                             ),
                           ),
                           const SizedBox(width: 16),
@@ -485,7 +487,7 @@ class _ResultPageState extends State<ResultPage> {
                                   height: 1.2,
                                 ),
                               ),
-                              textScaleFactor: 1,
+                              textScaler: TextScaler.linear(1),
                             ),
                           ),
                         ],

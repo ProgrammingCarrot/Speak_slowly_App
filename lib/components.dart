@@ -51,7 +51,7 @@ class StartBtn extends StatelessWidget {
           ),
         ),
         textAlign: TextAlign.center,
-        textScaleFactor: 1,
+        textScaler: const TextScaler.linear(1),
       ),
     );
   }
@@ -100,7 +100,7 @@ class SubmitBtn extends StatelessWidget {
           ),
         ),
         textAlign: TextAlign.center,
-        textScaleFactor: 1,
+        textScaler: const TextScaler.linear(1),
       ),
     );
   }
@@ -149,7 +149,7 @@ class ReturnBtn extends StatelessWidget {
           ),
         ),
         textAlign: TextAlign.center,
-        textScaleFactor: 1,
+        textScaler: const TextScaler.linear(1),
       ),
     );
   }

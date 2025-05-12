@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:speak_slowly/treatment_map.dart';
@@ -123,7 +121,7 @@ class _ResourcePageState extends State<ResourcePage> {
                                             fontSize: 14,
                                             fontWeight: FontWeight.w500),
                                       ),
-                                      textScaleFactor: 1,
+                                      textScaler: TextScaler.linear(0.8),
                                     ),
                                   ),
                                 ),
@@ -191,7 +189,7 @@ class _ResourcePageState extends State<ResourcePage> {
                                       ],
                                     ),
                                     textAlign: TextAlign.center,
-                                    textScaleFactor: 1,
+                                    textScaler: const TextScaler.linear(0.8),
                                   ),
                                 );
                               }).toList(),
@@ -237,7 +235,7 @@ class _ResourcePageState extends State<ResourcePage> {
                                     height: 1.2,
                                   ),
                                 ),
-                                textScaleFactor: 1,
+                                textScaler: TextScaler.linear(1),
                               ),
                             ),
                           ],
@@ -315,7 +313,7 @@ class _ResourcePageState extends State<ResourcePage> {
                                     height: 1.2,
                                   ),
                                 ),
-                                textScaleFactor: 1,
+                                textScaler: TextScaler.linear(1),
                               ),
                             ),
                           ],
