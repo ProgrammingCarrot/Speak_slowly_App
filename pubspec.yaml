@@ -52,6 +52,7 @@ dependencies:
   audio_session: ^0.1.16
   fluttertoast: ^8.2.2
   firebase_database: ^10.2.5
+  firebase_core: ^2.32.0
   device_info_plus: ^9.0.3
   http: ^1.4.0
 

@@ -32,13 +32,12 @@ class SpeakSlowly extends StatelessWidget {
         fontFamily: 'Noto_Sans_TC',
         // Custom checkbox theme
         checkboxTheme: Theme.of(context).checkboxTheme.copyWith(
-            checkColor:
-                MaterialStateProperty.all<Color>(const Color(0xFF653103)),
+            checkColor: WidgetStateProperty.all<Color>(const Color(0xFF653103)),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10),
             ),
             // Add border when checkbox is active
-            side: MaterialStateBorderSide.resolveWith(
+            side: WidgetStateBorderSide.resolveWith(
               (states) =>
                   const BorderSide(width: 1.5, color: Color(0xFF653103)),
             ),
@@ -86,7 +85,7 @@ class Homepage extends StatelessWidget {
                           ),
                         ),
                         textAlign: TextAlign.left,
-                        textScaleFactor: 1,
+                        textScaler: TextScaler.linear(1),
                       ),
                     ),
                     Container(
@@ -102,7 +101,7 @@ class Homepage extends StatelessWidget {
                           ),
                         ),
                         textAlign: TextAlign.left,
-                        textScaleFactor: 1,
+                        textScaler: TextScaler.linear(1),
                       ),
                     ),
                     // titleSection,
